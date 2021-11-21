@@ -1,16 +1,20 @@
-import logo from './logo.svg';
-import './App.css';
-import MyInfo from "./components/MyInfo/MyInfo";
-import {Button} from 'react-bootstrap'
-import 'bootstrap/dist/css/bootstrap.min.css';
+// import logo from './logo.svg';
+import "./App.css";
+// import MyInfo from "./components/MyInfo/MyInfo";
+import "bootstrap/dist/css/bootstrap.min.css";
+import Header from "./components/Header";
+import Footer from "./components/Footer";
+import Home from "./components/Pages/Home";
 
-
+/* <MyInfo /> */
 
 function App() {
   return (
     <div className="App">
-      <MyInfo />
-      <Button variant="primary">Button</Button>
+     
+      <Header />
+      <Footer/>
+      
     </div>
   );
 }
